@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../src/components/layout'
+import Layout, { siteTitle } from '../src/components/Layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home () {
