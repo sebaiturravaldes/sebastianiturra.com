@@ -25,3 +25,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+footer {
+  margin-top: 99px;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.5;
+}
