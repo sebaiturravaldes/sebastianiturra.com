@@ -1,0 +1,24 @@
+{
+  "name": "sebastianiturra.com",
+  "version": "1.0.0",
+  "description": "personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siturra/sebastianiturra.com.git"
+  },
+  "keywords": [
+    "blog",
+    "siturra",
+    "sebastianiturra"
+  ],
+  "author": "Sebastián Iturra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siturra/sebastianiturra.com/issues"
+  },
+  "homepage": "https://github.com/siturra/sebastianiturra.com#readme"
+}
