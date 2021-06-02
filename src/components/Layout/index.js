@@ -25,6 +25,22 @@ export default function Layout ({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <script dangerouslySetInnerHTML={{
+
+          __html: `
+          var disqus_config = function () {
+    this.page.url = 'https://sebastianiturra.com';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };(function() { // DON'T EDIT BELOW THIS LINE
+
+    
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-sebastianiturra-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();`
+        }} />
+
       </Head>
       <header className={styles.header}>
         {home
@@ -71,6 +87,7 @@ export default function Layout ({ children, home }) {
           </Link>
         </div>
       )}
+      <script id="dsq-count-scr" src="//https-sebastianiturra-com.disqus.com/count.js" async></script>
     </div>
   )
 }
