@@ -20,7 +20,7 @@ export default function FirstPost () {
         height={300}
       />
       <p className="justify">A continuación te dejo el link de mi canal en donde trataré de subir videos más explicativos y cada vez con mejor producción.</p>
-      <p className="justify">Para enseñarle al mundo que Nunca es tarde para aprender.</p>
+      <p className="justify">Para demostrar al mundo, que Nunca es tarde para aprender.</p>
       <p className="justify"><a href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w">Ir al canal</a></p>
 
       <div id="disqus_thread"></div>
