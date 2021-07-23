@@ -19,7 +19,8 @@ export default function Home () {
           </p>
         <p>
           <Link href="posts">[Blog]</Link>-
-          <Link href="youtube">[Youtube]</Link>
+          <Link href="youtube">[Youtube]</Link>-
+          <Link href="udemy">[Udemy]</Link>
           </p>
       </section>
       <footer>
