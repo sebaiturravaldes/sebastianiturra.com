@@ -7,7 +7,7 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 const name = 'Sebastián Iturra'
-export const siteTitle = 'siturra ~ Personal Blog'
+export const siteTitle = 'siturra ~ Personal Web Site'
 
 export default function Layout ({ children, home }) {
   return (
