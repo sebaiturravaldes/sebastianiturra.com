@@ -13,6 +13,7 @@ body {
   font-family: 'Poppins', sans-serif;     
   line-height: 1.6;
   font-size: 18px;
+  font-weight: 400;
   background-color: var(--dark-background-color);
   color: var(--dark-text-color);
 }

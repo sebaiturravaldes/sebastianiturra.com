@@ -19,8 +19,7 @@ export default function About () {
       </section>
       <footer>
         <p>
-          (Este blog esta desarrollado con NextJS,{' '}
-          <a href="https://nextjs.org/learn">aprende Next.js</a>.)
+          (Este blog esta desarrollado con <a href="https://nextjs.org/learn">NextJS</a>)
         </p>
         <p>
           Código fuente de este blog: <a href="https://github.com/siturra/sebastianiturra.com">https://github.com/siturra/sebastianiturra.com</a>
