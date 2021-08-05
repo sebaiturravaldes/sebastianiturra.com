@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Layout from '../../src/components/Layout'
 
-export default function index () {
+export default function Courses () {
   return (
     <Layout>
       <Head>

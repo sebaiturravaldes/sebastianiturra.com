@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../../../styles/utils.module.css'
 import Link from 'next/link'
+import PropTypes from 'prop-types'
 
 const name = 'Sebastián Iturra'
 export const siteTitle = 'siturra ~ Personal Blog'
@@ -25,37 +26,13 @@ export default function Layout ({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <script dangerouslySetInnerHTML={{
-
-          __html: `
-          var disqus_config = function () {
-    this.page.url = 'https://sebastianiturra.com';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };(function() { // DON'T EDIT BELOW THIS LINE
-
-    
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-sebastianiturra-com.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();`
-        }} />
-
       </Head>
       <header className={styles.header}>
         {home
           ? (
-          <>
-            <Image
-              priority
-              src="https://avatars.githubusercontent.com/u/11622941?v=4"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
+          <div className={styles.logo}>
+            {name}
+          </div>
             )
           : (
           <>
@@ -83,11 +60,24 @@ export default function Layout ({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Volver</a>
           </Link>
         </div>
       )}
-      <script id="dsq-count-scr" src="//https-sebastianiturra-com.disqus.com/count.js" async></script>
+
+      <footer>
+        <p>
+          Nunca es tarde
+        </p>
+        <p>
+          ❤️
+        </p>
+      </footer>
     </div>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+  home: PropTypes.bool
 }

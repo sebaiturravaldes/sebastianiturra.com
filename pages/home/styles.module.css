@@ -1,0 +1,11 @@
+.content {
+    padding: 150px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content a {
+    font-size: 48px;
+    font-weight: 600;
+}

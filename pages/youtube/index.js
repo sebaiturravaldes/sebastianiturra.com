@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Layout from '../../src/components/Layout'
 import Image from 'next/image'
 
-export default function index () {
+export default function Youtube () {
   return (
     <Layout>
       <Head>
