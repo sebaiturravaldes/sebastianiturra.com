@@ -56,3 +56,11 @@ footer {
 .borderCircle {
   border-radius: 9999px;
 }
+
+.container {
+  padding: 0 20%;
+}
+
+.text-center {
+  text-align: center;
+}
