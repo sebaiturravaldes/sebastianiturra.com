@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Layout from '../../src/components/Layout'
 import Link from 'next/link'
 
-export default function Posts () {
+export default function Posts() {
   return (
     <Layout>
       <Head>

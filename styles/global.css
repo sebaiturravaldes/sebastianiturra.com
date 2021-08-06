@@ -10,10 +10,10 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;     
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   background-color: var(--dark-background-color);
   color: var(--dark-text-color);
 }
@@ -45,4 +45,14 @@ footer {
 
 .justify {
   text-align: justify;
+}
+
+.abstract {
+  font-weight: 200;
+  text-align: justify;
+  font-size: 0.75rem;
+}
+
+.borderCircle {
+  border-radius: 9999px;
 }

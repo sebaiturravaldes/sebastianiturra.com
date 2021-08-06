@@ -1,22 +1,22 @@
 .content {
-    padding: 150px 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  padding: 150px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .content a {
-    font-size: 48px;
-    font-weight: 500;
+  font-size: 48px;
+  font-weight: 500;
 }
 
 @media (max-width: 640px) {
-    .content {
-        padding: 150px 0;
-        flex-direction: column;
-    }
+  .content {
+    padding: 150px 0;
+    flex-direction: column;
+  }
 
-    .content a {
-        font-size: 42px;
-    }
+  .content a {
+    font-size: 42px;
+  }
 }
