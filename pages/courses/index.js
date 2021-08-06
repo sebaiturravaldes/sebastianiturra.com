@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Layout from '../../src/components/Layout'
+import Card from '../../src/components/Card'
 
 export default function Courses() {
   return (
@@ -11,12 +12,16 @@ export default function Courses() {
       <div className="container">
         <h2>Hola, he comenzado en Udemy</h2>
         <p className="justify">
-          A continuación te dejo el enlace a mi perfil, en donde podrás encontrar todos los cursos
-          que iré desarrollando.
+          A continuación te dejo el listado de todos los cursos que he lanzado.
         </p>
-        <p className="justify">
-          <a href="https://www.udemy.com/user/sebastian-iturra">Ver perfil en Udemy</a>
-        </p>
+        <div className="mt-50">
+          <Card
+            image="https://img-c.udemycdn.com/course/480x270/4161148_c379_3.jpg"
+            href="https://www.udemy.com/course/crear-extensiones-con-visual-studio-code"
+            title="Crear extensión en Visual Studio Code"
+            description="Aprenderás a crear tu primera extensión y así comenzar a automatizar las tareas repetitivas que haces y no te das cuenta."
+          />
+        </div>
       </div>
     </Layout>
   )

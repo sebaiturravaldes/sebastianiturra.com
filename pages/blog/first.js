@@ -8,9 +8,11 @@ export default function First() {
       <Head>
         <title>First Post</title>
       </Head>
-      <h1>First Post</h1>
-      <p>⛏ en construcción… </p>
-      <p>Trataremos de partir del blog siempre con una imagen...</p>
+      <div className="container">
+        <h1>First Post</h1>
+        <p>⛏ en construcción… </p>
+        <p>Trataremos de partir del blog siempre con una imagen...</p>
+      </div>
     </Layout>
   )
 }
