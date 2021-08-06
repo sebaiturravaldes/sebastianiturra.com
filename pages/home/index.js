@@ -11,7 +11,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={styles.content}>
-        <Link href="/posts">Blog</Link>
+        <Link href="/blog">Blog</Link>
         <Link href="/courses">Cursos</Link>
         <Link href="/contact">Hablemos</Link>
         <Link href="/about">Acerca de</Link>

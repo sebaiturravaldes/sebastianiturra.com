@@ -64,3 +64,37 @@ footer {
 .text-center {
   text-align: center;
 }
+
+.social-media {
+  padding: 35px 25% 0 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-udemy:hover {
+  color: #5624d0;
+}
+
+.icon-facebook:hover {
+  color: #3578e5;
+}
+
+.icon-youtube:hover {
+  color: #ff0000;
+}
+
+.icon-linkedin:hover {
+  color: #0a66c2;
+}
+
+.icon-github:hover {
+  color: #24292f;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1%;
+  }
+}

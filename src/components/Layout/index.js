@@ -1,8 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from './layout.module.css'
-import Link from 'next/link'
 import PropTypes from 'prop-types'
+import Back from './Back'
+import Logo from './Logo'
+import Footer from './Footer'
 
 const name = 'Sebastián Iturra'
 export const siteTitle = 'siturra ~ Personal Web Site'
@@ -13,34 +15,20 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Personal blog Sebastián Iturra" />
-        <meta
-          property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/11622941?v=4" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
       <header className={styles.header}>
-        <div className={styles.logo}>
-          <Link href="/">{name}</Link>
-        </div>
+        <Logo name={name} />
       </header>
+
       <main>{children}</main>
 
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Volver</a>
-          </Link>
-        </div>
-      )}
+      {!home ? <Back /> : null}
 
-      <footer>
-        <p>Nunca es tarde</p>
-        <p>❤️</p>
-      </footer>
+      <Footer />
     </div>
   )
 }

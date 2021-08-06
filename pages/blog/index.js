@@ -9,7 +9,13 @@ export default function Posts() {
       <Head>
         <title>Blog</title>
       </Head>
-      <Link href="posts/first">First Post</Link>
+      <div className="container">
+        <h2>Blog</h2>
+
+        <Link href="blog/first">
+          <h3>First Post</h3>
+        </Link>
+      </div>
     </Layout>
   )
 }

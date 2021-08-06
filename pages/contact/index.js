@@ -6,6 +6,7 @@ export default function Contact() {
   return (
     <Layout>
       <div className="container">
+        <h2>Hablemos</h2>
         <p>
           Se lo importante que es necesitar de alguien a quien puedas contarle tus pensamientos,
           dudas, ideas, inquietudes y es por esto que he reservado para ti todas las mañanas de mis
