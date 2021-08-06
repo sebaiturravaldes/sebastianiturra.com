@@ -18,6 +18,7 @@ export default function Layout({ children, home }) {
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/11622941?v=4" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="theme-color" content="#171819" />
       </Head>
 
       <header className={styles.header}>
