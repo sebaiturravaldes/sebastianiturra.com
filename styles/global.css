@@ -4,6 +4,12 @@
   --primary-color: #171819;
   --dark-background-color: var(--primary-color);
   --dark-text-color: #ffffff;
+  
+  @media(prefers-color-scheme: dark) {
+    --primary-color: #ffffff;
+    --dark-background-color: var(--primary-color);
+    --dark-text-color: #171819;
+  }
 }
 
 html,
