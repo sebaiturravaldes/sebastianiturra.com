@@ -2,13 +2,17 @@
 
 :root {
   --primary-color: #171819;
-  --dark-background-color: var(--primary-color);
-  --dark-text-color: #ffffff;
-  
-  @media(prefers-color-scheme: dark) {
+  --background-color: var(--primary-color);
+  --text-color: #ffffff;
+  --button-bg-color: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
     --primary-color: #ffffff;
-    --dark-background-color: var(--primary-color);
-    --dark-text-color: #171819;
+    --background-color: var(--primary-color);
+    --text-color: #171819;
+    --button-bg-color: #171819;
   }
 }
 
@@ -21,8 +25,8 @@ body {
   line-height: 1.6;
   font-size: 18px;
   font-weight: 200;
-  background-color: var(--dark-background-color);
-  color: var(--dark-text-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 * {
@@ -30,7 +34,7 @@ body {
 }
 
 a {
-  color: var(--dark-text-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -53,7 +57,7 @@ footer {
 .button {
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: aliceblue;
+  background-color: var(--button-bg-color);
   color: var(--primary-color);
 }
 
