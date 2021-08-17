@@ -10,7 +10,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .content {
     padding: 150px 0;
     flex-direction: column;

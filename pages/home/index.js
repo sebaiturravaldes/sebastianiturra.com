@@ -1,15 +1,11 @@
 import React from 'react'
-import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../../src/components/Layout'
+import Layout from '../../src/components/Layout'
 import styles from './styles.module.css'
 
 export default function Home() {
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
       <section className={styles.content}>
         <Link href="/blog">Blog</Link>
         <Link href="/courses">Cursos</Link>
