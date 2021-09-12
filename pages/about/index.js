@@ -40,12 +40,12 @@ export default function About() {
               <SiUdemy className="icon-udemy" />
             </a>
           </Link>
-          <Link href="https://www.facebook.com/Sevenfiveten/">
+          <Link href="https://www.facebook.com/sebastianiturravaldes/">
             <a target="_blank" rel="noreferrer">
               <SiFacebook className="icon-facebook" />
             </a>
           </Link>
-          <Link href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w">
+          <Link href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
             <a target="_blank" rel="noreferrer">
               <SiYoutube className="icon-youtube" />
             </a>
@@ -55,7 +55,7 @@ export default function About() {
               <SiGithub className="icon-github" />
             </a>
           </Link>
-          <Link href="https://www.linkedin.com/in/siturra">
+          <Link href="https://www.linkedin.com/in/sebastianiturra">
             <a target="_blank" rel="noreferrer">
               <SiLinkedin className="icon-linkedin" />
             </a>

@@ -15,6 +15,9 @@ export default function Posts() {
         <Link href="blog/first">
           <h3>First Post</h3>
         </Link>
+        <Link href="blog/second">
+          <h3>Complejidad Ciclomática vs Complejidad Cognitiva</h3>
+        </Link>
       </div>
     </Layout>
   )
