@@ -7,9 +7,8 @@ export default function Home() {
   return (
     <Layout home>
       <section className={styles.content}>
-        <Link href="https://medium.com/@sebastianiturra">Blog</Link>
+        {/* <Link href="https://medium.com/@sebastianiturra">Blog</Link> */}
         <Link href="/courses">Cursos</Link>
-        <Link href="/contact">Hablemos</Link>
         <Link href="/about">Acerca de</Link>
       </section>
     </Layout>

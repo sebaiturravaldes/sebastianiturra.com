@@ -7,7 +7,7 @@ import Logo from './Logo'
 import Footer from './Footer'
 
 const name = 'Sebastián Iturra'
-export const siteTitle = 'siturra ~ Personal Web Site'
+export const siteTitle = 'Sebastián Iturra ~ Personal Web Site'
 export const siteDescription = 'Sitio Web Personal de Sebastián Iturra'
 
 export default function Layout({ children, home }) {
