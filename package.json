@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start"
   },
+  "prettier": "@siturra/prettier-config",
   "dependencies": {
     "next": "^10.0.0",
     "react": "17.0.1",
@@ -30,11 +31,8 @@
   },
   "homepage": "https://github.com/siturra/sebastianiturra.com#readme",
   "devDependencies": {
-    "eslint": "^7.24.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-react": "^7.23.2"
+    "@siturra/prettier-config": "^1.0.3",
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.26.1"
   }
 }
