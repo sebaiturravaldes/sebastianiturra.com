@@ -28,10 +28,6 @@ export default function Layout({ children, home }) {
         <meta property="og:description" content={siteDescription} />
       </Head>
 
-      <header className={styles.header}>
-        <Logo name={name} />
-      </header>
-
       <main>{children}</main>
 
       {!home ? <Back /> : null}

@@ -28,7 +28,7 @@ export default function About() {
           <h2>Acerca de mi</h2>
           <p className="abstract">
             [Hola ser vivo!, mi nombre es Sebastián Iturra, actualmente vivo en Santiago de Chile,
-            tengo veintiseis(26) años, soy padre y comencé en esto hace muuuuuuuuuuuuuuchos años...
+            tengo veintisiete(27) años, soy padre y comencé en esto hace muuuuuuuuuuuuuuchos años...
             sin nada más que escribir por ahora, te doy la bienvenida a este sitio web, espero lo
             disfrutes, acá iré dejando parte de la historia, mis vivencias y espero te sirva de
             algo.]

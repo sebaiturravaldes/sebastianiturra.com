@@ -48,7 +48,7 @@ img {
 }
 
 footer {
-  margin-top: 99px;
+  margin-top: 49px;
   text-align: center;
   font-size: 0.65rem;
   line-height: 1.5;
@@ -76,7 +76,7 @@ footer {
 }
 
 .container {
-  padding: 0 20%;
+  padding: 0 30%;
 }
 
 .text-center {
@@ -84,7 +84,7 @@ footer {
 }
 
 .social-media {
-  padding: 35px 25% 0 25%;
+  padding: 25px 25% 0 25%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -93,6 +93,10 @@ footer {
 
 .icon-udemy:hover {
   color: #5624d0;
+}
+
+.icon-instagram:hover {
+  color: #E1306C;
 }
 
 .icon-facebook:hover {
@@ -119,4 +123,52 @@ footer {
   .container {
     padding: 0 1%;
   }
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.action-buttons {
+  margin-top: 25px;
+}
+
+.action-button>.icon {
+  margin-right: 10px;
+}
+
+.action-button.youtube {
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
+}
+
+.action-button.youtube:hover {
+  background-color: #fff;
+  color: #ff0000;
+}
+
+.action-button.udemy {
+  border: 1px solid #5624d0;
+  background-color: #5624d0;
+}
+
+.action-button.udemy:hover {
+  color: #5624d0;
+  background-color: #fff;
+}
+
+.action-button.blog {
+  border: 1px solid #24292f;
+  background-color: #24292f;
+}
+
+.action-button.blog:hover {
+  color: #24292f;
+  background-color: #fff;
 }
