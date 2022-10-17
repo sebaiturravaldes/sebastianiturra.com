@@ -27,8 +27,8 @@ export default function Home() {
                 <section>
                     <h2 align="center">Sebastián Iturra</h2>
                     <p className="abstract">
-                        [Hola ser vivo!, mi nombre es Sebastián Iturra, actualmente vivo en Santiago de Chile,
-                        tengo veintisiete(27) años, soy padre y comencé en esto a los 11 años,
+                        [Hola soy Sebastián Iturra, actualmente vivo en Santiago de Chile,
+                        tengo veintisiete(27) años, soy padre y comencé en esto a los once(11) años,
                         te doy la bienvenida a este sitio, donde iré dejando parte de mi historia,
                         vivencias y espero te sirvan de algo.]
                     </p>
