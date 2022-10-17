@@ -37,19 +37,19 @@ export default function Home() {
                     <Link href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
                         <a target="_blank" className="action-button youtube" rel="noreferrer">
                             <SiYoutube className="icon" />
-                            Youtube
+                            Ingresa a mi canal de Youtube
                         </a>
                     </Link>
                     <Link href="https://www.udemy.com/user/sebastian-iturra/">
                         <a target="_blank" className="action-button udemy" rel="noreferrer">
                             <SiUdemy className="icon" />
-                            Cursos
+                            Ve mis cursos en Udemy
                         </a>
                     </Link>
                     <Link href="https://medium.com/@sebastianiturra/">
                         <a target="_blank" className="action-button blog" rel="noreferrer">
                             <SiMedium className="icon" />
-                            Blog
+                            Revisa mi blog
                         </a>
                     </Link>
                 </section>
