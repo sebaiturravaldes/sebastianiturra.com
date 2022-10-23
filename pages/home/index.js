@@ -26,32 +26,12 @@ export default function Home() {
                 </section>
                 <section>
                     <h2 align="center">Sebastián Iturra</h2>
-                    <p className="abstract">
+                    {/* <p className="abstract">
                         [Hola soy Sebastián Iturra, actualmente vivo en Santiago de Chile,
                         tengo veintisiete(27) años, soy padre y comencé en esto a los once(11) años,
                         te doy la bienvenida a este sitio, donde iré dejando parte de mi historia,
                         vivencias y espero te sirvan de algo.]
-                    </p>
-                </section>
-                <section className="action-buttons">
-                    <Link href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
-                        <a target="_blank" className="action-button youtube" rel="noreferrer">
-                            <SiYoutube className="icon" />
-                            Ingresa a mi canal de Youtube
-                        </a>
-                    </Link>
-                    <Link href="https://www.udemy.com/user/sebastian-iturra/">
-                        <a target="_blank" className="action-button udemy" rel="noreferrer">
-                            <SiUdemy className="icon" />
-                            Ve mis cursos en Udemy
-                        </a>
-                    </Link>
-                    <Link href="https://medium.com/@sebastianiturra/">
-                        <a target="_blank" className="action-button blog" rel="noreferrer">
-                            <SiMedium className="icon" />
-                            Revisa mi blog
-                        </a>
-                    </Link>
+                    </p> */}
                 </section>
                 <section className="social-media">
                     <Link href="https://www.instagram.com/sebastianiturravaldes/">
@@ -74,6 +54,26 @@ export default function Home() {
                     <Link href="https://www.linkedin.com/in/sebastianiturra">
                         <a target="_blank" rel="noreferrer">
                             <SiLinkedin className="icon-linkedin" />
+                        </a>
+                    </Link>
+                </section>
+                <section className="action-buttons">
+                    <Link href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
+                        <a target="_blank" className="action-button youtube" rel="noreferrer">
+                            <SiYoutube className="icon" />
+                            Youtube
+                        </a>
+                    </Link>
+                    <Link href="https://www.udemy.com/user/sebastian-iturra/">
+                        <a target="_blank" className="action-button udemy" rel="noreferrer">
+                            <SiUdemy className="icon" />
+                            Cursos en Udemy
+                        </a>
+                    </Link>
+                    <Link href="https://medium.com/@sebastianiturra/">
+                        <a target="_blank" className="action-button blog" rel="noreferrer">
+                            <SiMedium className="icon" />
+                            Blog
                         </a>
                     </Link>
                 </section>
