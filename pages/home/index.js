@@ -40,20 +40,21 @@ export default function Home() {
                         </a>
                     </Link>
 
-                    <Link href="https://www.facebook.com/sebastianiturravaldes/">
+                    {/* <Link href="https://www.facebook.com/sebastianiturravaldes/">
                         <a target="_blank" rel="noreferrer">
                             <SiFacebook className="icon-facebook" />
+                        </a>
+                    </Link> */}
+
+                    <Link href="https://www.linkedin.com/in/sebastianiturra">
+                        <a target="_blank" rel="noreferrer">
+                            <SiLinkedin className="icon-linkedin" />
                         </a>
                     </Link>
 
                     <Link href="https://github.com/siturra">
                         <a target="_blank" rel="noreferrer">
                             <SiGithub className="icon-github" />
-                        </a>
-                    </Link>
-                    <Link href="https://www.linkedin.com/in/sebastianiturra">
-                        <a target="_blank" rel="noreferrer">
-                            <SiLinkedin className="icon-linkedin" />
                         </a>
                     </Link>
                 </section>
