@@ -34,25 +34,25 @@ export default function Home() {
                     </p> */}
                 </section>
                 <section className="social-media">
-                    <Link href="https://www.instagram.com/sebastianiturravaldes/">
+                    <Link href="https://www.instagram.com/sebaiturravaldes">
                         <a target="_blank" rel="noreferrer">
                             <SiInstagram className="icon-instagram" />
                         </a>
                     </Link>
 
-                    {/* <Link href="https://www.facebook.com/sebastianiturravaldes/">
+                    {/* <Link href="https://www.facebook.com/sebaiturravaldes/">
                         <a target="_blank" rel="noreferrer">
                             <SiFacebook className="icon-facebook" />
                         </a>
                     </Link> */}
 
-                    <Link href="https://www.linkedin.com/in/sebastianiturra">
+                    <Link href="https://www.linkedin.com/in/sebaiturravaldes">
                         <a target="_blank" rel="noreferrer">
                             <SiLinkedin className="icon-linkedin" />
                         </a>
                     </Link>
 
-                    <Link href="https://github.com/siturra">
+                    <Link href="https://github.com/sebaiturravaldes">
                         <a target="_blank" rel="noreferrer">
                             <SiGithub className="icon-github" />
                         </a>
@@ -71,7 +71,7 @@ export default function Home() {
                             Cursos en Udemy
                         </a>
                     </Link>
-                    <Link href="https://medium.com/@sebastianiturra/">
+                    <Link href="https://medium.com/@sebaiturravaldes">
                         <a target="_blank" className="action-button blog" rel="noreferrer">
                             <SiMedium className="icon" />
                             Blog
