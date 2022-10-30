@@ -3,13 +3,23 @@ import Head from 'next/head'
 import Layout from '../../src/components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SiUdemy, SiFacebook, SiYoutube, SiGithub, SiLinkedin, SiMedium, SiInstagram } from 'react-icons/si'
+import { SiUdemy, SiYoutube, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok } from 'react-icons/si'
 
 export default function Home() {
     return (
         <Layout home>
             <Head>
                 <title>Sebastián Iturra</title>
+                <meta
+                    name="description"
+                    content="Sitio web de sebaiturravaldes"
+                    key="desc"
+                />
+                <meta property="og:title" content="Sebastián Iturra Valdés" />
+                <meta
+                    property="og:description"
+                    content="Sitio web de sebaiturravaldes"
+                />
             </Head>
             <div className="container">
                 <section className="text-center">
@@ -38,6 +48,12 @@ export default function Home() {
                     <Link href="https://www.instagram.com/sebaiturravaldes">
                         <a target="_blank" rel="noreferrer">
                             <SiInstagram className="icon-instagram" />
+                        </a>
+                    </Link>
+
+                    <Link href="https://www.tiktok.com/@sebaiturravaldes">
+                        <a target="_blank" rel="noreferrer">
+                            <SiTiktok className="icon-tiktok" />
                         </a>
                     </Link>
 
