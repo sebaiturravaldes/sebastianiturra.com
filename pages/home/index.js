@@ -26,6 +26,7 @@ export default function Home() {
                 </section>
                 <section>
                     <h2 align="center">Sebastián Iturra</h2>
+                    <p align="center">@sebaiturravaldes</p>
                     {/* <p className="abstract">
                         [Hola soy Sebastián Iturra, actualmente vivo en Santiago de Chile,
                         tengo veintisiete(27) años, soy padre y comencé en esto a los once(11) años,
