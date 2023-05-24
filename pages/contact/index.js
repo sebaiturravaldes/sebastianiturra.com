@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../src/components/Layout'
+import Layout from '../../src/app/components/Layout'
 import styles from './styles.module.css'
 
 export default function Contact() {

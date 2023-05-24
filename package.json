@@ -1,19 +1,23 @@
 {
-  "name": "sebastianiturra.com",
-  "version": "1.0.0",
-  "description": "personal blog",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "prettier": "@siturra/prettier-config",
   "dependencies": {
-    "next": "^10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-icons": "^4.2.0"
+    "next": "13.4.3",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@siturra/prettier-config": "^1.0.3"
   },
   "repository": {
     "type": "git",
@@ -29,10 +33,5 @@
   "bugs": {
     "url": "https://github.com/siturra/sebastianiturra.com/issues"
   },
-  "homepage": "https://github.com/siturra/sebastianiturra.com#readme",
-  "devDependencies": {
-    "@siturra/prettier-config": "^1.0.3",
-    "eslint": "^8.2.0",
-    "eslint-plugin-react": "^7.26.1"
-  }
+  "homepage": "https://github.com/siturra/sebastianiturra.com#readme"
 }

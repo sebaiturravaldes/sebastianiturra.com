@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Layout from '../../src/app/components/Layout'
+import Layout from './components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
 import { SiUdemy, SiYoutube, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok } from 'react-icons/si'
@@ -22,7 +22,7 @@ export default function Home() {
                 />
             </Head>
             <div className="container">
-                <section className="text-center">
+                <section className="avatar">
                     <Link href="/">
                         <Image
                             priority
@@ -45,17 +45,13 @@ export default function Home() {
                     </p> */}
                 </section>
                 <section className="social-media">
-                    <Link href="https://www.instagram.com/sebaiturravaldes">
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sebaiturravaldes">
                             <SiInstagram className="icon-instagram" />
                         </a>
-                    </Link>
 
-                    <Link href="https://www.tiktok.com/@sebaiturravaldes">
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@sebaiturravaldes">
                             <SiTiktok className="icon-tiktok" />
                         </a>
-                    </Link>
 
                     {/* <Link href="https://www.facebook.com/sebaiturravaldes/">
                         <a target="_blank" rel="noreferrer">
@@ -63,37 +59,27 @@ export default function Home() {
                         </a>
                     </Link> */}
 
-                    <Link href="https://www.linkedin.com/in/sebaiturravaldes">
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sebaiturravaldes">
                             <SiLinkedin className="icon-linkedin" />
                         </a>
-                    </Link>
 
-                    <Link href="https://github.com/sebaiturravaldes">
-                        <a target="_blank" rel="noreferrer">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/sebaiturravaldes">
                             <SiGithub className="icon-github" />
                         </a>
-                    </Link>
                 </section>
                 <section className="action-buttons">
-                    <Link href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
-                        <a target="_blank" className="action-button youtube" rel="noreferrer">
+                        <a target="_blank" className="action-button youtube" rel="noreferrer" href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
                             <SiYoutube className="icon" />
                             Youtube
                         </a>
-                    </Link>
-                    <Link href="https://www.udemy.com/user/sebastian-iturra/">
-                        <a target="_blank" className="action-button udemy" rel="noreferrer">
+                        <a target="_blank" className="action-button udemy" rel="noreferrer" href="https://www.udemy.com/user/sebastian-iturra/">
                             <SiUdemy className="icon" />
                             Cursos en Udemy
                         </a>
-                    </Link>
-                    <Link href="https://medium.com/@sebaiturravaldes">
-                        <a target="_blank" className="action-button blog" rel="noreferrer">
+                        <a target="_blank" className="action-button blog" rel="noreferrer" href="https://medium.com/@sebaiturravaldes">
                             <SiMedium className="icon" />
                             Blog
                         </a>
-                    </Link>
                 </section>
             </div>
         </Layout>

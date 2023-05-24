@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Layout from '../../../src/components/Layout'
+import Layout from '../../../src/app/components/Layout'
 
 export default function Second() {
   return (
