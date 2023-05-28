@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Layout from '../../src/app/components/Layout'
+import Layout from '../../app/components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
 import { SiUdemy, SiYoutube, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok } from 'react-icons/si'

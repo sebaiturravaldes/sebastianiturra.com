@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Layout from '../../src/app/components/Layout'
-import Card from '../../src/app/components/Card'
+import Layout from '../../app/components/Layout'
+import Card from '../../app/components/Card'
 
 export default function Courses() {
   return (

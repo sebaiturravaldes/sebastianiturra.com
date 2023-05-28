@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Layout from '../../src/app/components/Layout'
+import Layout from '../../app/components/Layout'
 import styles from './styles.module.css'
 
 export default function home() {

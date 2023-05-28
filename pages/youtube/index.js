@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Layout from '../../src/app/components/Layout'
+import Layout from '../../app/components/Layout'
 import Image from 'next/image'
 
 export default function Youtube() {
