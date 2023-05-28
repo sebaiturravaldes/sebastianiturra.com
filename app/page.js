@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Layout from './components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SiUdemy, SiYoutube, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok } from 'react-icons/si'
+import { SiUdemy, SiYoutube, SiTwitch, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok } from 'react-icons/si'
 
 export default function Home() {
     return (
@@ -72,13 +72,17 @@ export default function Home() {
                             <SiYoutube className="icon" />
                             Youtube
                         </a>
-                        <a target="_blank" className="action-button udemy" rel="noreferrer" href="https://www.udemy.com/user/sebastian-iturra/">
-                            <SiUdemy className="icon" />
-                            Cursos en Udemy
+                        <a target="_blank" className="action-button twitch" rel="noreferrer" href="https://www.twitch.tv/sebaiturravaldes">
+                            <SiTwitch className="icon" />
+                            Twitch
                         </a>
                         <a target="_blank" className="action-button blog" rel="noreferrer" href="https://medium.com/@sebaiturravaldes">
                             <SiMedium className="icon" />
                             Blog
+                        </a>
+                        <a target="_blank" className="action-button udemy" rel="noreferrer" href="https://www.udemy.com/user/sebastian-iturra/">
+                            <SiUdemy className="icon" />
+                            Cursos en Udemy
                         </a>
                 </section>
             </div>

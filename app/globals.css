@@ -158,13 +158,24 @@ footer {
   color: #ff0000;
 }
 
+
+.action-button.twitch {
+  border: 1px solid #6441a5;
+  background-color: #6441a5;
+}
+
+.action-button.twitch:hover {
+  background-color: #fff;
+  color: #6441a5;
+}
+
 .action-button.udemy {
-  border: 1px solid #5624d0;
-  background-color: #5624d0;
+  border: 1px solid #2563eb;
+  background-color: #2563eb;
 }
 
 .action-button.udemy:hover {
-  color: #5624d0;
+  color: #2563eb;
   background-color: #fff;
 }
 
