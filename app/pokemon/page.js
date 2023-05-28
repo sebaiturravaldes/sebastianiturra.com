@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SiUdemy, SiYoutube, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok } from 'react-icons/si'
+import {  SiGithub, SiLinkedin, SiInstagram, SiTiktok } from 'react-icons/si'
 
 export default function Home() {
     return (
