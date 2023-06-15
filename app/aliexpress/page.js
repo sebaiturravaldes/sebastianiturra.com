@@ -1,9 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
-import Layout from './components/Layout'
+import Layout from '../components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SiUdemy, SiYoutube, SiTwitch, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok, SiAliexpress } from 'react-icons/si'
+import { SiGithub, SiLinkedin, SiInstagram, SiTiktok } from 'react-icons/si'
 
 export default function Home() {
     return (
@@ -53,12 +53,6 @@ export default function Home() {
                         <SiTiktok className="icon-tiktok" />
                     </a>
 
-                    {/* <Link href="https://www.facebook.com/sebaiturravaldes/">
-                        <a target="_blank" rel="noreferrer">
-                            <SiFacebook className="icon-facebook" />
-                        </a>
-                    </Link> */}
-
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sebaiturravaldes">
                         <SiLinkedin className="icon-linkedin" />
                     </a>
@@ -68,24 +62,8 @@ export default function Home() {
                     </a>
                 </section>
                 <section className="action-buttons">
-                    <a target="_blank" className="action-button youtube" rel="noreferrer" href="https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1">
-                        <SiYoutube className="icon" />
-                        Youtube
-                    </a>
-                    <a target="_blank" className="action-button twitch" rel="noreferrer" href="https://www.twitch.tv/sebaiturravaldes">
-                        <SiTwitch className="icon" />
-                        Twitch
-                    </a>
-                    <a target="_blank" className="action-button blog" rel="noreferrer" href="https://medium.com/@sebaiturravaldes">
-                        <SiMedium className="icon" />
-                        Blog
-                    </a>
-                    <a target="_blank" className="action-button udemy" rel="noreferrer" href="https://www.udemy.com/user/sebastian-iturra/">
-                        <SiUdemy className="icon" />
-                        Cursos en Udemy
-                    </a>
-                    <a className="action-button aliexpress" href="/aliexpress">
-                        Aliexpress
+                    <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://es.aliexpress.com/item/1005005558102386.html?spm=a2g0o.order_detail.order_detail_item.3.210c39d3Z1Zuyl&gatewayAdapt=glo2esp">
+                        Soporte juegos Switch
                     </a>
                 </section>
             </div>
