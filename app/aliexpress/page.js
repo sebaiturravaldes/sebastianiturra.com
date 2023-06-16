@@ -5,6 +5,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { SiGithub, SiLinkedin, SiInstagram, SiTiktok } from 'react-icons/si'
 
+const items = [
+    {
+        title: '#2 Soporte para teléfono',
+        link: 'https://s.click.aliexpress.com/e/_DeghAqh'
+    },
+    {
+        title: '#1 Soporte juegos Switch',
+        link: 'https://s.click.aliexpress.com/e/_Dn0AOzB'
+    }
+]
+
 export default function Home() {
     return (
         <Layout home>
@@ -62,12 +73,11 @@ export default function Home() {
                     </a>
                 </section>
                 <section className="action-buttons">
-                    <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://s.click.aliexpress.com/e/_DeghAqh">
-                        #2 Soporte para teléfono
-                    </a>
-                    <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://s.click.aliexpress.com/e/_Dn0AOzB">
-                        #1 Soporte juegos Switch
-                    </a>
+                    {items.map((item, index) => (
+                        <a key={index} className="action-button aliexpress" target='_blank' rel="noreferrer" href={item.link}>
+                            {item.title}
+                        </a>
+                    ))}
                 </section>
             </div>
         </Layout>

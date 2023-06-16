@@ -144,6 +144,10 @@ footer {
   margin-top: 25px;
 }
 
+.action-button {
+  cursor: pointer;
+}
+
 .action-button>.icon {
   margin-right: 10px;
 }
