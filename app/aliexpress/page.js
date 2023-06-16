@@ -62,8 +62,11 @@ export default function Home() {
                     </a>
                 </section>
                 <section className="action-buttons">
+                    <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://es.aliexpress.com/item/1005002840600961.html?spm=a2g0o.order_list.order_list_main.11.5338194dk0Eb75&gatewayAdapt=glo2esp">
+                        #2 Soporte para teléfono
+                    </a>
                     <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://es.aliexpress.com/item/1005005558102386.html?spm=a2g0o.order_detail.order_detail_item.3.210c39d3Z1Zuyl&gatewayAdapt=glo2esp">
-                        Soporte juegos Switch
+                        #1 Soporte juegos Switch
                     </a>
                 </section>
             </div>

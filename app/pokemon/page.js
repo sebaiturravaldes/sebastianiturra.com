@@ -46,7 +46,8 @@ export default function Home() {
                             <li>Dar like al video 👍🏼</li>
                         </ul>
                         <h1>Fecha del sorteo</h1>
-                        <p>Se realizará en vivo a través de la plataforma Twitch, será el sábado 24 de Julio a las 21:00 horas Chile por el canal 👉🏼 <a href="https://www.twitch.tv/sebaiturravaldes" target="_blank">https://twitch.tv/sebaiturravaldes</a></p>
+                        <p>Sábado 24 de Junio a las 21:00 horas Chile</p>
+                        <p>Se realizará en vivo a través de la plataforma Twitch, por nuestro canal <a href="https://www.twitch.tv/sebaiturravaldes" target="_blank">https://twitch.tv/sebaiturravaldes</a></p>
                         <h1>Entrega del sorteo</h1>
                         <p>Después del sorteo, nos pondremos en contacto con el ganador para coordinar la forma y método de despacho para que pueda recibir su premio.</p>
                 </section>
