@@ -75,11 +75,11 @@ export default function Home() {
                     <a target="_blank" className="action-button twitch" rel="noreferrer" href="https://www.twitch.tv/sebaiturravaldes">
                         <SiTwitch className="icon" />
                         Twitch
-                    </a>
+                    </a>{/* 
                     <a target="_blank" className="action-button kick" rel="noreferrer" href="https://kick.com/sebaiturravaldes">
                         <SiKickstarter className="icon" />
                         Kick
-                    </a>
+                    </a> */}
                     <a target="_blank" className="action-button blog" rel="noreferrer" href="https://medium.com/@sebaiturravaldes">
                         <SiMedium className="icon" />
                         Blog
