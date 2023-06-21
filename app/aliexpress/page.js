@@ -7,6 +7,9 @@ import { SiGithub, SiLinkedin, SiInstagram, SiTiktok } from 'react-icons/si'
 
 const items = [
     {
+        title: '#3 Protectores color Turquesa para TCG',
+        link: 'https://es.aliexpress.com/item/1005005069413565.html?spm=a2g0o.order_detail.order_detail_item.4.265639d3j01oN4&gatewayAdapt=glo2esp'
+    }, {
         title: '#2 Soporte para teléfono',
         link: 'https://s.click.aliexpress.com/e/_DeghAqh'
     },
