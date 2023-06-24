@@ -8,19 +8,6 @@ import { SiUdemy, SiYoutube, SiTwitch, SiGithub, SiLinkedin, SiMedium, SiInstagr
 export default function Home() {
     return (
         <Layout home>
-            <Head>
-                <title>Sebastián Iturra</title>
-                <meta
-                    name="description"
-                    content="Sitio web de sebaiturravaldes"
-                    key="desc"
-                />
-                <meta property="og:title" content="Sebastián Iturra Valdés" />
-                <meta
-                    property="og:description"
-                    content="Sitio web de sebaiturravaldes"
-                />
-            </Head>
             <div className="container">
                 <section className="avatar">
                     <Link href="/">

@@ -30,19 +30,6 @@ const items = [
 export default function Home() {
     return (
         <Layout home>
-            <Head>
-                <title>Sebastián Iturra</title>
-                <meta
-                    name="description"
-                    content="Sitio web de sebaiturravaldes"
-                    key="desc"
-                />
-                <meta property="og:title" content="Sebastián Iturra Valdés" />
-                <meta
-                    property="og:description"
-                    content="Sitio web de sebaiturravaldes"
-                />
-            </Head>
             <div className="container">
                 <section className="avatar">
                     <Link href="/">
@@ -59,12 +46,6 @@ export default function Home() {
                 <section>
                     <h2 align="center">Sebastián Iturra</h2>
                     <p align="center">@sebaiturravaldes</p>
-                    {/* <p className="abstract">
-                        [Hola soy Sebastián Iturra, actualmente vivo en Santiago de Chile,
-                        tengo veintisiete(27) años, soy padre y comencé en esto a los once(11) años,
-                        te doy la bienvenida a este sitio, donde iré dejando parte de mi historia,
-                        vivencias y espero te sirvan de algo.]
-                    </p> */}
                 </section>
                 <section className="social-media">
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sebaiturravaldes">
