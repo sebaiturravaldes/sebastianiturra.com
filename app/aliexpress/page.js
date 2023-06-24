@@ -8,7 +8,7 @@ import { SiGithub, SiLinkedin, SiInstagram, SiTiktok } from 'react-icons/si'
 const items = [
     {
         title: '#5 Protectores Dragon Shield',
-        link: 'https://s.click.aliexpress.com/e/_DE2aubJ'
+        link: 'https://s.click.aliexpress.com/e/_DeqtZVf'
     }, {
         title: '#4 Estuche para juegos Nintendo Switch 24 en 1',
         link: 'https://s.click.aliexpress.com/e/_DmBlUkV'
