@@ -3,24 +3,11 @@ import Head from 'next/head'
 import Layout from './components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import { SiUdemy, SiYoutube, SiTwitch, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok, SiAliexpress } from 'react-icons/si'
+import { SiUdemy, SiYoutube, SiTwitch, SiGithub, SiLinkedin, SiMedium, SiInstagram, SiTiktok, SiAliexpress, SiKickstarter } from 'react-icons/si'
 
 export default function Home() {
     return (
         <Layout home>
-            <Head>
-                <title>Sebastián Iturra</title>
-                <meta
-                    name="description"
-                    content="Sitio web de sebaiturravaldes"
-                    key="desc"
-                />
-                <meta property="og:title" content="Sebastián Iturra Valdés" />
-                <meta
-                    property="og:description"
-                    content="Sitio web de sebaiturravaldes"
-                />
-            </Head>
             <div className="container">
                 <section className="avatar">
                     <Link href="/">
@@ -75,6 +62,13 @@ export default function Home() {
                     {/* <a target="_blank" className="action-button twitch" rel="noreferrer" href="https://www.twitch.tv/sebaiturravaldes">
                         <SiTwitch className="icon" />
                         Twitch
+<<<<<<< HEAD
+=======
+                    </a>{/* 
+                    <a target="_blank" className="action-button kick" rel="noreferrer" href="https://kick.com/sebaiturravaldes">
+                        <SiKickstarter className="icon" />
+                        Kick
+>>>>>>> e5e621397e600b35ccd7f395ab63f31c176241a0
                     </a> */}
                     <a target="_blank" className="action-button blog" rel="noreferrer" href="https://medium.com/@sebaiturravaldes">
                         <SiMedium className="icon" />

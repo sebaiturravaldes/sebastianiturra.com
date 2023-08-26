@@ -144,6 +144,10 @@ footer {
   margin-top: 25px;
 }
 
+.action-button {
+  cursor: pointer;
+}
+
 .action-button>.icon {
   margin-right: 10px;
 }
@@ -176,6 +180,16 @@ footer {
 .action-button.twitch:hover {
   background-color: #fff;
   color: #6441a5;
+}
+
+.action-button.kick {
+  border: 1px solid #51FC17;
+  background-color: #51FC17;
+}
+
+.action-button.kick:hover {
+  background-color: #fff;
+  color: #51FC17;
 }
 
 .action-button.udemy {

@@ -5,22 +5,31 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { SiGithub, SiLinkedin, SiInstagram, SiTiktok } from 'react-icons/si'
 
+const items = [
+    {
+        title: '#5 Protectores Dragon Shield',
+        link: 'https://s.click.aliexpress.com/e/_DeqtZVf'
+    }, {
+        title: '#4 Estuche para juegos Nintendo Switch 24 en 1',
+        link: 'https://s.click.aliexpress.com/e/_DmBlUkV'
+    },
+    {
+        title: '#3 Protectores color Turquesa para TCG',
+        link: 'https://es.aliexpress.com/item/1005005069413565.html?spm=a2g0o.order_detail.order_detail_item.4.265639d3j01oN4&gatewayAdapt=glo2esp'
+    },
+    {
+        title: '#2 Soporte para teléfono',
+        link: 'https://s.click.aliexpress.com/e/_DeghAqh'
+    },
+    {
+        title: '#1 Soporte juegos Switch',
+        link: 'https://s.click.aliexpress.com/e/_Dn0AOzB'
+    }
+]
+
 export default function Home() {
     return (
         <Layout home>
-            <Head>
-                <title>Sebastián Iturra</title>
-                <meta
-                    name="description"
-                    content="Sitio web de sebaiturravaldes"
-                    key="desc"
-                />
-                <meta property="og:title" content="Sebastián Iturra Valdés" />
-                <meta
-                    property="og:description"
-                    content="Sitio web de sebaiturravaldes"
-                />
-            </Head>
             <div className="container">
                 <section className="avatar">
                     <Link href="/">
@@ -37,12 +46,6 @@ export default function Home() {
                 <section>
                     <h2 align="center">Sebastián Iturra</h2>
                     <p align="center">@sebaiturravaldes</p>
-                    {/* <p className="abstract">
-                        [Hola soy Sebastián Iturra, actualmente vivo en Santiago de Chile,
-                        tengo veintisiete(27) años, soy padre y comencé en esto a los once(11) años,
-                        te doy la bienvenida a este sitio, donde iré dejando parte de mi historia,
-                        vivencias y espero te sirvan de algo.]
-                    </p> */}
                 </section>
                 <section className="social-media">
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sebaiturravaldes">
@@ -61,12 +64,11 @@ export default function Home() {
                     </a>
                 </section>
                 <section className="action-buttons">
-                    <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://es.aliexpress.com/item/1005002840600961.html?spm=a2g0o.order_list.order_list_main.11.5338194dk0Eb75&gatewayAdapt=glo2esp">
-                        #2 Soporte para teléfono
-                    </a>
-                    <a className="action-button aliexpress" target='_blank' rel="noreferrer" href="https://es.aliexpress.com/item/1005005558102386.html?spm=a2g0o.order_detail.order_detail_item.3.210c39d3Z1Zuyl&gatewayAdapt=glo2esp">
-                        #1 Soporte juegos Switch
-                    </a>
+                    {items.map((item, index) => (
+                        <a key={index} className="action-button aliexpress" target='_blank' rel="noreferrer" href={item.link}>
+                            {item.title}
+                        </a>
+                    ))}
                 </section>
             </div>
         </Layout>
