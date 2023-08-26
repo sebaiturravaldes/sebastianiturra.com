@@ -72,10 +72,10 @@ export default function Home() {
                         <SiYoutube className="icon" />
                         Youtube
                     </a>
-                    <a target="_blank" className="action-button twitch" rel="noreferrer" href="https://www.twitch.tv/sebaiturravaldes">
+                    {/* <a target="_blank" className="action-button twitch" rel="noreferrer" href="https://www.twitch.tv/sebaiturravaldes">
                         <SiTwitch className="icon" />
                         Twitch
-                    </a>
+                    </a> */}
                     <a target="_blank" className="action-button blog" rel="noreferrer" href="https://medium.com/@sebaiturravaldes">
                         <SiMedium className="icon" />
                         Blog

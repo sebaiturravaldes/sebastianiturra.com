@@ -56,7 +56,6 @@ export default function Home() {
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sebaiturravaldes">
                         <SiLinkedin className="icon-linkedin" />
                     </a>
-
                     <a target="_blank" rel="noreferrer" href="https://github.com/sebaiturravaldes">
                         <SiGithub className="icon-github" />
                     </a>
