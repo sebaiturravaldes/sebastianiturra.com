@@ -1,10 +1,10 @@
 import React from 'react'
 
 export default function Footer() {
+  const year = new Date().getFullYear()
   return (
     <footer>
-      <p>Nunca es tarde</p>
-      <p>❤️</p>
+      <p>© {year} Nunca es tarde <span className="heart">❤</span></p>
     </footer>
   )
-}
+} 
