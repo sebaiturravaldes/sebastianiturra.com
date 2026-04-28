@@ -120,7 +120,7 @@ const socials = [
 const links = [
     {
         href: 'https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1',
-        title: 'Mi canal de YouTube',
+        title: 'Canal de YouTube',
         description: '',
         Icon: SiYoutube,
         accent: '#ff0033',
