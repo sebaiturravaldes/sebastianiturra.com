@@ -11,6 +11,7 @@ import {
     SiInstagram,
     SiTiktok,
     SiAliexpress,
+    SiRiotgames,
 } from 'react-icons/si'
 
 const ArrowIcon = () => (
@@ -57,6 +58,15 @@ const MailBurstIcon = () => (
         <rect x="3" y="6" width="14" height="11" rx="2" />
         <path d="M3 8l7 5 7-5" />
         <path d="M20 4v2M22 7h-2M20 10v2" />
+    </svg>
+)
+
+const PokeballIcon = () => (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M3 12h6" />
+        <path d="M15 12h6" />
+        <circle cx="12" cy="12" r="3" />
     </svg>
 )
 
@@ -141,6 +151,23 @@ const links = [
         Icon: SiMedium,
         accent: '#e5e7eb',
         external: true,
+    },
+]
+
+const games = [
+    {
+        href: 'https://eloshowdown.com/riftbound/player/53563/season-4-vendetta/',
+        title: 'Elo Showdown',
+        game: 'Riftbound',
+        Icon: SiRiotgames,
+        accent: '#d13639',
+    },
+    {
+        href: 'https://limitlesstcg.com/players/5911',
+        title: 'Limitless',
+        game: 'Pokémon TCG',
+        Icon: PokeballIcon,
+        accent: '#ffcb05',
     },
 ]
 
@@ -254,6 +281,35 @@ export default function Home() {
                                 </span>
                                 <span className="link-arrow" aria-hidden="true">
                                     <ArrowIcon />
+                                </span>
+                            </a>
+                        ))}
+                    </div>
+                </section>
+
+                <section className="games" aria-label="Competitivo">
+                    <h2 className="section-title">Competitivo</h2>
+                    <div className="game-grid">
+                        {games.map(({ href, title, game, Icon, accent }) => (
+                            <a
+                                key={title}
+                                href={href}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="game-card"
+                                style={{ '--accent': accent }}
+                            >
+                                <span className="game-head">
+                                    <span className="game-icon" aria-hidden="true">
+                                        <Icon />
+                                    </span>
+                                    <span className="game-text">
+                                        <span className="game-title">{title}</span>
+                                        <span className="game-game">{game}</span>
+                                    </span>
+                                    <span className="link-arrow" aria-hidden="true">
+                                        <ArrowIcon />
+                                    </span>
                                 </span>
                             </a>
                         ))}

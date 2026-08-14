@@ -385,6 +385,113 @@ img {
   transform: translate(2px, -2px);
 }
 
+/* ===== Competitivo ===== */
+.game-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 560px) {
+  .game-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.game-card {
+  --accent: #8b5cf6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+
+.game-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    140deg,
+    color-mix(in srgb, var(--accent) 16%, transparent),
+    transparent 55%
+  );
+  opacity: 0.6;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.game-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--border-strong));
+  box-shadow: 0 16px 40px -16px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+
+.game-card:hover::before {
+  opacity: 1;
+}
+
+.game-head {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.game-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--accent);
+  font-size: 1.2rem;
+  transition: all 0.25s ease;
+}
+
+.game-card:hover .game-icon {
+  background: var(--accent);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.game-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.game-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.game-game {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+
+.game-card:hover .link-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
 /* ===== Cards de enlaces sociales/externos ===== */
 .link-card {
   --accent: #8b5cf6;
@@ -525,6 +632,10 @@ footer .heart {
     gap: 0.875rem;
   }
 
+  .game-card {
+    padding: 1rem;
+  }
+
   .link-icon {
     width: 40px;
     height: 40px;
@@ -555,17 +666,21 @@ footer .heart {
   .link-card,
   .social-pill,
   .link-icon,
-  .link-arrow {
+  .link-arrow,
+  .game-card,
+  .game-icon {
     transition: none;
   }
 }
 
 /* ===== Fallback navegadores sin color-mix ===== */
 @supports not (background: color-mix(in srgb, red, blue)) {
-  .link-icon {
+  .link-icon,
+  .game-icon {
     background: rgba(139, 92, 246, 0.18);
   }
-  .link-card:hover {
+  .link-card:hover,
+  .game-card:hover {
     box-shadow: 0 12px 32px -12px rgba(139, 92, 246, 0.5);
   }
 }
