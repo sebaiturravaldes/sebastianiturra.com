@@ -61,6 +61,15 @@ const MailBurstIcon = () => (
     </svg>
 )
 
+const GuideIcon = () => (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M4 4.5A2.5 2.5 0 016.5 2H20v15H6.5A2.5 2.5 0 004 19.5z" />
+        <path d="M4 19.5A2.5 2.5 0 016.5 17H20v5H6.5A2.5 2.5 0 014 19.5z" />
+        <path d="M8 7h8" />
+        <path d="M8 11h5" />
+    </svg>
+)
+
 const PokeballIcon = () => (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="9" />
@@ -128,6 +137,14 @@ const socials = [
 ]
 
 const links = [
+    {
+        href: 'https://www.roadtohero.com/sebaiturravaldes',
+        title: 'Mis guías publicadas',
+        description: 'Guías competitivas en Road to Hero',
+        Icon: GuideIcon,
+        accent: '#ee3622',
+        external: true,
+    },
     {
         href: 'https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1',
         title: 'Canal de YouTube',
