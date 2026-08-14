@@ -137,14 +137,7 @@ const socials = [
 ]
 
 const links = [
-    {
-        href: 'https://www.roadtohero.com/sebaiturravaldes',
-        title: 'Mis guías publicadas',
-        description: 'Guías competitivas en Road to Hero',
-        Icon: GuideIcon,
-        accent: '#ee3622',
-        external: true,
-    },
+   
     {
         href: 'https://www.youtube.com/channel/UC_8SqULZ-a0rKmvxvAEJK0w?sub_confirmation=1',
         title: 'Canal de YouTube',
@@ -169,6 +162,14 @@ const links = [
         accent: '#e5e7eb',
         external: true,
     },
+     {
+        href: 'https://www.roadtohero.com/sebaiturravaldes',
+        title: 'Mis guías publicadas',
+        description: 'Guías competitivas en Road to Hero',
+        Icon: GuideIcon,
+        accent: '#ee3622',
+        external: true,
+    }
 ]
 
 const games = [
